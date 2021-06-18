@@ -9,5 +9,6 @@ Usage:
 Assembling and linking:
 
 `nasm -felf64 sha512sum_asm.asm`
+
 `ld -o ./sha512sum_asm sha512sum_asm.o`
 
